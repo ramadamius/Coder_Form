@@ -1,0 +1,104 @@
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* General elements */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+legend {
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+textarea {
+    border-radius: 0rem!important;
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+}
+
+form p {
+    font-size: 1.2rem;
+    color: #4f4f4f;
+}
+
+/* Input Style */
+.inputs {
+    background-color: #e1e1e1;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    display: block;
+    border-radius: 1rem;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #4f4f4f;
+    color: white;
+}
+
+/* Class dependant style*/
+.forma-contacto {
+    max-width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forma-contacto p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.content-centered {
+    margin: 0 auto 0 auto;
+}
+
+.success {
+    color: #6a9138;
+    width: 100%;
+    text-align: center;
+}
+
+.non-visible{
+    display: none;
+}
+
+
+
+
+
+

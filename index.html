@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-centered title">Formulario de contacto</h1>
+
+    <main class="content-centered">
+        <h3 class="text-centered subtitle">¡Rellena el formulario de contacto y serás contactado por nuestro equipo a la brevedad!</h3>
+        <form id="contact-form">
+            <fieldset> 
+                <legend>Información Personal</legend>
+
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" class="inputs" placeholder="Tu nombre" required>
+
+                <label for="surname">Apellido:</label>
+                <input type="text" id="surname" class="inputs" placeholder="Tu apellido" required>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Información de Contacto</legend>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="inputs" placeholder="Tu correo electrónico" required>
+
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" class="inputs" placeholder="Tu teléfono" required>
+
+                <p>Elegí un método de contacto:</p>
+
+                <div class="forma-contacto">
+
+                    <label for="contact_phone">Teléfono</label>
+                    <input type="radio" name="contact" value="phone" id="contact_phone">
+
+                    <label for="contact_email">E-mail</label>
+                    <input type="radio" name="contact" value="email" id="contact_email">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Consulta</legend>
+                <p>Si lo deseas, podes dejarnos una consulta</p>
+                <textarea id="message" name="message" class="inputs" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Enviar consulta">
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
